@@ -29,5 +29,16 @@ GeoBootstrap aims to be a readable "glass box" reference you can adapt to your o
 - Spyder-friendly file dialogs with console fallback
 
 ---
+## “Start Here” checklist (for your zip)
 
+1. Unzip the folder anywhere (e.g., Desktop).
+2. Double-click **run_windows.bat**.
+3. When asked for the borehole file, select **sample_boreholes.txt**.
+4. When asked for the polygon file, select **sample_polygon.txt**.
+5. Confirm the plots appear and the summary prints in the console.
+6. Replace the sample files with your own data:
+
+   * Borehole file with headers: **Easting, Northing, Thickness, RD**
+   * Polygon file with **x,y** points per line
+7. Run **run_windows.bat** again and select your real files.
 
